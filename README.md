@@ -5,7 +5,11 @@ A simple package to convert a file mapping configuration into a file map that ca
 
 *Motivated by my laziness.*
 
-## Format
+## Installation
+
+`npm install catmap`
+
+## Configuration Format
 ```cson
 example_config.cson
 
