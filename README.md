@@ -1,7 +1,7 @@
 CatMap
 =================================
 
-A simple package to convert a file mapping configuration into a file map that can be used for minification or concatenation build tasks.
+A simple package to convert a file mapping configuration into a file map that can be used for minification or concatenation build tasks. Works by appending a common "source directory" to the beginning of a set of files to avoid having to maintain lengthy lists of source to destination mappings in build configuration.
 
 *Motivated by my laziness.*
 
