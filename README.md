@@ -7,7 +7,7 @@ A simple package to convert a file mapping configuration into a file map that ca
 
 ## Format
 ```cson
-fileMappings.cson
+example_config.cson
 
 app:
   options: srcDir: '.tmp/app'
