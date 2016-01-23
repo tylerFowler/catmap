@@ -1,0 +1,26 @@
+app:
+  options: srcDir: '.tmp/app'
+  files:
+    # Main Application Code #
+    'public/app/app.js': [
+      'app.module.js'
+      'app.routes.js'
+      'app.directives.js'
+      'app.controller.js'
+    ]
+
+    # User Authentication Components #
+    'public/app/auth.js': [
+      'components/auth/singupController.js'
+      'components/auth/signinController.js'
+      'components/auth/authService.js'
+    ]
+
+libs:
+  options: srcDir: 'bower_modules'
+  files:
+    'public/lib/vendor.min.js': [
+      'angular/angular.min.js'
+      'angular-resource/angular-resource.min.js'
+      'angular-ui-router/release/angular-ui-router.min.js'
+    ]

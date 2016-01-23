@@ -1,0 +1,14 @@
+{
+  "name": "catmap",
+  "version": "1.0.0",
+  "description": "Creates a file map object that can be used for minification or concat mappings.",
+  "main": "index.js",
+  "dependencies": {
+    "cson": "^3.0.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "author": "Tyler Fowler <tylerfowler.1337@gmail.com>",
+  "license": "MIT",
+  "engine": "node >= 0.12"
+}
